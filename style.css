@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+body {
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+    
+}
+a{
+    font-family: "Manrope", sans-serif;
+    font-size:1em;
+    color: #242424;
+    text-decoration:none;   
+}
+
+a:hover{
+    text-decoration: underline; /*souligne les liens au survol*/
+}
+
+em{
+        color:#A5B4FC; 
+        font-style: normal;
+}
+    
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5em;
+    color:#a5b4fc;
+}
+
+h2 {
+    color:#F9F8FF;
+  }
+  
+  
+p,
+li{
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+     color:#F9F8FF;
+    /*background-color: blue;*/
+}
+
+.entete,
+.pied-de-page {
+  background-color: white;
+}
+
+.lien-icone:hover{
+    opacity:0.5;
+}
+
+.cta{
+    
+    background:linear-gradient(#8e86B5,#acaeed) ; 
+    color:white;
+    border-radius: 50px;
+}
+
+.cta:hover{
+    background:linear-gradient(#696484,#8788BA) ; 
+    text-decoration: none; 
+}
+
+.pa-com{
+    border-right: 1px solid #8e86b5;
+    border-bottom:1px solid #8e86b5 ;
+    padding: 50px;
+}
+
+.pa-com h2 {
+    margin-top: 30px;
+  }
+
+  
+  .pa-com ul {
+    margin-top: 30px;
+  }
+
+  .pa-com + div {
+    text-align: center;
+  }
+  
+
+header,
+footer{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+
+}
+section{
+   
+    padding: 80px;
+}
+
+.main-ap{
+    width: 50%;
+    margin:auto;
+}
+
+footer,
+nav{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content: space-between;
+}
+nav a{
+    margin-right: 30px;
+}
+
+.accueil-photos {
+    background-color: white;
+    padding: 80px;
+  }
+  
+  .accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items:first center;
+    margin: auto; 
+  }
+  .accueil-introduction h1 {
+    margin-bottom: 15px;
+  }
+  
+  .accueil-introduction p {
+    margin-bottom: 30px;
+  }
+  
+  .accueil-introduction div {
+    padding-right: 80px;
+  }
