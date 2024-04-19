@@ -3,11 +3,13 @@ body {
     /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
+    background-color: #1f2039;
     
 }
 a{
     font-family: "Manrope", sans-serif;
     font-size:1em;
+    color: #242424;
     text-decoration:none;   
 
 }
@@ -23,9 +25,25 @@ h1{
     color:#a5b4fc;
 }
 
+h2 {
+    color:#F9F8FF;
+  }
+  
+  
 p,
 li{
     font-family: "Manrope", sans-serif;
     font-size: 1.1em;
+     color:#F9F8FF;
     /*background-color: blue;*/
+}
+
+.entete,
+.pied-de-page {
+  background-color: white;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
 }
