@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 
 body {
     /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
@@ -65,4 +68,35 @@ li{
 .pa-com{
     border-right: 1px solid #8e86b5;
     border-bottom:1px solid #8e86b5 ;
+    padding: 50px;
+}
+
+.pa-com h2 {
+    margin-top: 30px;
+  }
+
+  
+  .pa-com ul {
+    margin-top: 30px;
+  }
+
+  .pa-com + div {
+    text-align: center;
+  }
+  
+
+header,
+footer{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+
+}
+section{
+   
+    padding: 80px;
+}
+
+.main-ap{
+    width: 50%;
+    margin:auto;
 }
