@@ -1,0 +1,68 @@
+
+body {
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+    
+}
+a{
+    font-family: "Manrope", sans-serif;
+    font-size:1em;
+    color: #242424;
+    text-decoration:none;   
+}
+
+a:hover{
+    text-decoration: underline; /*souligne les liens au survol*/
+}
+
+em{
+        color:#A5B4FC; 
+        font-style: normal;
+}
+    
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5em;
+    color:#a5b4fc;
+}
+
+h2 {
+    color:#F9F8FF;
+  }
+  
+  
+p,
+li{
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+     color:#F9F8FF;
+    /*background-color: blue;*/
+}
+
+.entete,
+.pied-de-page {
+  background-color: white;
+}
+
+.lien-icone:hover{
+    opacity:0.5;
+}
+
+.cta{
+    
+    background:linear-gradient(#8e86B5,#acaeed) ; 
+    color:white;
+    border-radius: 50px;
+}
+
+.cta:hover{
+    background:linear-gradient(#696484,#8788BA) ; 
+    text-decoration: none; 
+}
+
+.pa-com{
+    border-right: 1px solid #8e86b5;
+    border-bottom:1px solid #8e86b5 ;
+}
