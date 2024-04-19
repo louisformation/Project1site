@@ -43,7 +43,13 @@ li{
   background-color: white;
 }
 
-.cta {
-  background: linear-gradient(#8e86b5, #acaeed);
-  color: white;
+.cta{
+    
+    background:linear-gradient(#8e86B5,#acaeed) ; 
+    color:white;
+    border-radius: 50px;
+}
+.pa-com{
+    border-right: 1px solid #8e86b5;
+    border-bottom:1px solid #8e86b5 ;
 }
